@@ -1,0 +1,20 @@
+/*Veethacheng Thao*/
+body{
+  background: linear-gradient(green,lime) fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  font-family: Trebuchet MS;
+  text-align: center;
+  color: brown;
+}
+
+p{
+  font-family: Comic Sans MS;
+  color: red;
+
+img{
+border: solid;
+}
