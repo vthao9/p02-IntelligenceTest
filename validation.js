@@ -117,7 +117,7 @@ function result() {
   resultsAdded = Number(getCookie("pointsAdd1")) + Number(getCookie("pointsAdd2")) + Number(getCookie("pointsAdd3")) + Number(getCookie("pointsAdd4")) + Number(getCookie("pointsAdd5")) + Number(getCookie("pointsAdd6"));
   var resultCorrect = Number(resultsAdded) / 6;
   var resultInPercent = resultCorrect * 100;
-  document.getElementById("result").innerHTML = Number(resultInPercent.toFixed(2)) + " %";
+  document.getElementById("result").innerHTML = Number(resultInPercent.toFixed(2)) + "%";
 }
 
 //courtesy of w3schools, from: http://www.w3schools.com/js/js_cookies.asp
